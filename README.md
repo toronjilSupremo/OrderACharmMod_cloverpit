@@ -13,7 +13,7 @@ Based on the original [Order a Charm](https://www.nexusmods.com/cloverpit/mods/4
 
 ### Installation Steps
 
-1. Download `OrderCharmMod.dll`.
+1. Download [`OrderCharmMod.dll`](https://github.com/toronjilSupremo/OrderACharmMod_cloverpit/releases/tag/1.0.0).
 2. Navigate to your CloverPit installation folder:
 
 `C:\Program Files (x86)\Steam\steamapps\common\CloverPit\BepInEx\plugins`
