@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>OrderCharmMod</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="BepInEx" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'BepInEx', 'core', 'BepInEx.dll'))" />
+    <Reference Include="0Harmony" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'BepInEx', 'core', '0Harmony.dll'))" />
+    <Reference Include="Assembly-CSharp" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'Assembly-CSharp.dll'))" />
+    <Reference Include="UnityEngine" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'UnityEngine.dll'))" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'UnityEngine.CoreModule.dll'))" />
+    <Reference Include="Unity.TextMeshPro" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'Unity.TextMeshPro.dll'))" />
+    <Reference Include="UnityEngine.UI" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'UnityEngine.UI.dll'))" />
+    <Reference Include="UnityEngine.PhysicsModule" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'UnityEngine.PhysicsModule.dll'))" />
+    <Reference Include="UnityEngine.InputLegacyModule" HintPath="$([System.IO.Path]::Combine('$(CloverPit)', 'CloverPit_Data', 'Managed', 'UnityEngine.InputLegacyModule.dll'))" />
+  </ItemGroup>
+</Project>
