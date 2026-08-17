@@ -4,17 +4,6 @@ A BepInEx mod for **CloverPit** that allows you to order charms without spending
 
 Based on the original [Order a Charm](https://www.nexusmods.com/cloverpit/mods/4) mod.
 
-## ✨ Features
-
-✅ Any charm can be ordered, including special charms such as **God's Eye**.
-✅ Ordering charms does **not consume tickets**.
-✅ You do **not need to have enough tickets** to place an order.
-✅ You can queue up to **4 orders** before the next restock.
-✅ When reaching **4/4 orders**, the order button disappears or becomes inactive.
-✅ After the next restock, the **4 queued orders are processed**.
-✅ The order counter then resets to **0/4**.
-✅ The setup from the previous restock remains in place.
-
 ## 📦 Installation
 
 ### Requirements
